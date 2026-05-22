@@ -51,4 +51,4 @@ To explore or run any of the learning modules locally:
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/ISHANT-AG/React-with-Ishant.git)
-   cd YOUR_REPO_NAME
+   cd React-With-Ishant

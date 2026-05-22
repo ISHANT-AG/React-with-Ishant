@@ -7,12 +7,19 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
 
+  let Counter = 15
+
+  const addValue = () => {
+    console.log("Value added",Math.random());
+  }
   return (
     <>
     <h1>Chai Aur React</h1>
-    <h2>Counter Value: 5</h2>
+    <h2>Counter Value: {Counter}</h2>
 
-    <button>Add Value</button>
+    <button onClick={addValue}>
+    Add Value</button>
+    <br/>
     <button>Remove Value</button>
     </>
   )
