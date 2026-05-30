@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <>
-  <Navbar title = "Ishant"/>
+  <Navbar title = "Ishant Agrawal"/>
   <div className="container my-3 ">
   <TextForm heading="Enter the text to analyze below "/>
   </div>
